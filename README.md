@@ -133,23 +133,20 @@ Les figures générées par le notebook peuvent être regroupées dans le dossie
 
 ## 8. Installation et utilisation
 
-### Prérequis
+### Option 1 : Google Colab 
+1. Ouvrir le notebook `LeNet5_Tifinagh.ipynb` dans Google Colab.
+2. Activer le GPU 
+3. Exécuter les cellules dans l'ordre. La base AMHCD est téléchargée automatiquement avec `kagglehub`.
 
-Python 3 et les bibliothèques listées dans `requirements.txt` sont nécessaires. Pour bénéficier de l'accélération matérielle, un GPU compatible et une version appropriée de PyTorch sont requis.
-
-### Installation locale
-
-Cloner le dépôt :
-
+### Option 2 : installation locale
 ```bash
-https://github.com/ikramelghidouni59/Tp_Impl-mentation_LeNet5.git
-```
-
-Installer les dépendances :
-
-```bash
+git clone https://github.com/ikramelghidouni59/Tp_Impl-mentation_LeNet5.git
+cd Tp_Impl-mentation_LeNet5
 pip install -r requirements.txt
+jupyter notebook
 ```
+
+Le téléchargement de la base peut demander un compte Kaggle configuré (`kaggle.json`).
 
 
 
